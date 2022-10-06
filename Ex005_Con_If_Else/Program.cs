@@ -8,6 +8,6 @@ if(username.ToLower() == "маша")
 else
 {
     Console.Write("Привет, ");
-    Console.Write(username);
-    Console.Write(", а где же Маша?");
+    Console.WriteLine(username);
+    Console.WriteLine(", а где же Маша");
 }
